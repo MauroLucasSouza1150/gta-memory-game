@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    font-family: 'Pricedown', Times;
+}
+
+body {
+    background-color: rgb(182, 182, 182);
+    font-family: 'Pricedown', Times;
+}
+
+@font-face {
+    font-family: 'Pricedown';
+    src: url(../fonts/pricedown\ bl.otf) format('opentype');
+    font-weight: normal;  
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Game</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/game.css">
+    <script src="../js/game.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="end-game-modal" id="modal-container" hidden>
+            <div class="end-game-msg">
+                <span> Missão Completa !</span>
+                <button class="restart-btn" id="restart-btn">Reinicar Game</button>
+            </div>
+        </div>
+        <header>
+            <span>Nome do Player: <span class="player"></span></span>
+            <span>Tempo: <span class="timer">00</span></span>
+        </header>
+        <div class="grid">
+        </div>
+    </div>
+</body>
+</html>
